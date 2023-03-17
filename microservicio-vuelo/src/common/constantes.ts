@@ -1,0 +1,12 @@
+export enum RabbitMQ {
+  VueloCola = 'vuelos',
+}
+
+export enum VueloMSG {
+  INSERTAR = 'CREAR_VUELO',
+  TODOS = 'TODOS_LOS_VUELOS',
+  UNO = 'UN_VUELO',
+  ACTUALIZAR = 'ACTUALIZAR_VUELO',
+  ELIMINAR = 'ELIMINAR_VUELO',
+  AGREGAR = 'AGREGAR_UN_PASAJERO_A_VUELO',
+}

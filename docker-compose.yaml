@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  db:
+    image: mongo:6
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_DATABASE=vuelos-db
+      - MONGO_INITDB_ROOT_USERNAME=jhojan
+      - MONGO_INITDB_ROOT_PASSWORD=1998
+    volumes:
+      - ./mongo:/data/db

@@ -1,0 +1,12 @@
+export enum RabbitMQ {
+  UsuarioCola = 'usuarios',
+}
+
+export enum UserMSG {
+  INSERTAR = 'CREAR_USUARIO',
+  TODOS = 'TODOS_LOS_USUARIOS',
+  UNO = 'UN_USUARIO',
+  ACTUALIZAR = 'ACTUALIZAR_USUARIO',
+  ELIMINAR = 'ELIMINAR_USUARIO',
+  VALIDAR = 'VALIDAR_USUARIO',
+}
